@@ -1,4 +1,4 @@
-const OPENROUTER_API_KEY = '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'
+const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
 export async function sendMessage(messages) {
